@@ -8,7 +8,7 @@ module ReservationsHelper
   end
 
   def check_date_is_open(date_response)
-    date_response.keys.exclude?("allNoTimesReasons")
+    not date_response["timeSlots"].empty?
   end
 
   # 7 is between 5-9pm, airtable checks +-2 hrs

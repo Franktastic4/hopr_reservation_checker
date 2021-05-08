@@ -21,7 +21,6 @@ class ReservationsController < ApplicationController
     request_bodies.each do |request_body|
       response = HTTParty.post(url, headers: headers, body: request_body.to_json)
       availabilities = response["availability"].to_h
-
       availabilities.keys.each do |date|
         next unless (Date.parse(date) rescue nil)
         valid_days.append(date) if check_date_is_open(availabilities[date])
