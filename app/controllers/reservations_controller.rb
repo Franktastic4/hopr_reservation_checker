@@ -8,13 +8,14 @@ class ReservationsController < ApplicationController
 
     permitted = params
       .permit!
-      .with_defaults(seats: "2", days: "5")
+      .with_defaults(seats: "2", days: "5", start_date: Date.today.to_s)
 
     headers = build_headers(permitted)
     seats = permitted[:seats]
     days = permitted[:days].to_i
+    start_date = Date.parse(permitted[:start_date])
 
-    request_bodies = build_request_bodies(days, seats)
+    request_bodies = build_request_bodies(days, seats, start_date)
     valid_days = []
 
     request_bodies.each do |request_body|
