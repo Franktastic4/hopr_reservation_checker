@@ -25,8 +25,8 @@ class ReservationsController < ApplicationController
       availabilities = response["availability"].to_h
       availabilities.keys.each do |date|
         next unless is_date?(date)
-        if check_date_is_open(availabilities[date]) do
-          if between_reservation_time?(availabilities[date], start_time, end_time) do
+        if check_date_is_open(availabilities[date])
+          if between_reservation_time?(availabilities[date], start_time, end_time)
             valid_days.add(date)
           end
         end
