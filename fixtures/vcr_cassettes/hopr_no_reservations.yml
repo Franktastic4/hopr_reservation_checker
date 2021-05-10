@@ -25,13 +25,13 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Ot-Requestid:
-      - f5f9a596-0cc5-4bfe-b4ba-715bee3909b0
+      - 683938fc-21d5-42f9-a655-fd83e0b328f1
       X-Content-Type-Options:
       - nosniff
       X-Xss-Protection:
       - 1; mode=block
       Ot-Anonymousid:
-      - 27C4234A-4F72-45A1-A527-552ACA093D84
+      - C8D02EC1-4F85-4749-9B77-D7D2AAB62B41
       Content-Type:
       - application/json;charset=utf-8
       Etag:
@@ -39,20 +39,20 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Date:
-      - Mon, 10 May 2021 21:05:36 GMT
+      - Mon, 10 May 2021 22:59:15 GMT
       Content-Length:
       - '1412'
       Connection:
       - keep-alive
       Set-Cookie:
-      - OT-Session-Update-Date=1620680736; Path=/; Domain=opentable.com; Expires=Mon,
-        10-May-2021 21:35:36 GMT; Max-Age=1800; Secure; SameSite=None
-      - OT-SessionId=6af91314-b608-459a-8653-dfcb3c37a828; Path=/; Domain=opentable.com;
-        Expires=Mon, 10-May-2021 21:35:36 GMT; Max-Age=1800; Secure; SameSite=None
-      - otuvid=27C4234A-4F72-45A1-A527-552ACA093D84; Path=/; Domain=opentable.com;
+      - OT-Session-Update-Date=1620687555; Path=/; Domain=opentable.com; Expires=Mon,
+        10-May-2021 23:29:15 GMT; Max-Age=1800; Secure; SameSite=None
+      - OT-SessionId=3b8f90d2-be7e-4b42-8627-2cce58521983; Path=/; Domain=opentable.com;
+        Expires=Mon, 10-May-2021 23:29:15 GMT; Max-Age=1800; Secure; SameSite=None
+      - otuvid=C8D02EC1-4F85-4749-9B77-D7D2AAB62B41; Path=/; Domain=opentable.com;
         Secure; SameSite=None
     body:
       encoding: UTF-8
       string: '{"availability":{"2021-05-10":{"allNoTimesReasons":["NoTimesExist"],"reasonCode":"NoTimesExist","standardMessageCode":"noTimes","minPartySize":2,"maxPartySize":6,"maxDaysInAdvance":365,"sameDayCutoff":null,"earlyCutoff":null,"allowNextAvailable":true,"hasOffers":false,"offerIds":[],"timeSlots":[],"date":"2021-05-10","hasExperiences":false},"2021-05-11":{"allNoTimesReasons":["NoTimesExist"],"reasonCode":"NoTimesExist","standardMessageCode":"noTimes","minPartySize":2,"maxPartySize":6,"maxDaysInAdvance":365,"sameDayCutoff":null,"earlyCutoff":null,"allowNextAvailable":true,"hasOffers":false,"offerIds":[],"timeSlots":[],"date":"2021-05-11","hasExperiences":false},"2021-05-12":{"allNoTimesReasons":["NoTimesExist"],"reasonCode":"NoTimesExist","standardMessageCode":"noTimes","minPartySize":2,"maxPartySize":6,"maxDaysInAdvance":365,"sameDayCutoff":null,"earlyCutoff":null,"allowNextAvailable":true,"hasOffers":false,"offerIds":[],"timeSlots":[],"date":"2021-05-12","hasExperiences":false},"2021-05-13":{"allNoTimesReasons":["NoTimesExist"],"reasonCode":"NoTimesExist","standardMessageCode":"noTimes","minPartySize":2,"maxPartySize":6,"maxDaysInAdvance":365,"sameDayCutoff":null,"earlyCutoff":null,"allowNextAvailable":true,"hasOffers":false,"offerIds":[],"timeSlots":[],"date":"2021-05-13","hasExperiences":false},"ticketedExperiences":{},"waitlistStatus":{"waitlistAvailable":false}},"blockedDayMessages":[]}'
-  recorded_at: Mon, 10 May 2021 21:05:36 GMT
+  recorded_at: Mon, 10 May 2021 22:59:15 GMT
 recorded_with: VCR 6.0.0
