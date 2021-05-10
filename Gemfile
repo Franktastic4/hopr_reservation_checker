@@ -55,5 +55,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'pry', '~> 0.13.1'
+gem 'pry', '0.14.1'
 gem 'httparty', '~> 0.18.1'
+gem 'vcr' , '~> 6.0.0'
+gem 'webmock', '3.12.2'
+gem 'rspec', '3.10.0'
+gem "rspec-rails", "~> 5.0"

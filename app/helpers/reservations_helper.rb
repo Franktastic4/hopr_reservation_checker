@@ -11,6 +11,16 @@ module ReservationsHelper
     not date_response["timeSlots"].empty?
   end
 
+  # def is_before_time(date_response, time)
+  #   date_response["timeSlots"].each do |timeslot|
+  #     if Time.parse(timeslot["time"]) > time
+  #       return true
+  #     end
+  #   end
+  #
+  #   false
+  # end
+
   # 7 is between 5-9pm, airtable checks +-2 hrs
   def build_request_bodies(days, seats, start_date)
     (1..days).map do |i|
