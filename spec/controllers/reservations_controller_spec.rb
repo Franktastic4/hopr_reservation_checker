@@ -59,7 +59,6 @@ describe ReservationsController, type: :controller do
           subject.between_reservation_time?(availability, start_time, end_time)
         end
 
-        binding.pry
         assert_equal 4, matching_days.count
       end
     end
